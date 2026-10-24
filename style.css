@@ -8,30 +8,25 @@
 /*
   Lecture 05 - Step 3: Add base styling rules for the body.
 */
-/*
-body {
-  background-color: #F2F7F8;
+body  {
+  background-color: beige;
   color: #17324D;
 }
-*/
-
-/*
-  Lecture 05 - Step 5: Write three selector types to target real HTML elements.
+/* 
+ 05 - Step 5: Write three selector types to target real HTML elements.
   - Element selector (p)
   - Class selector (.content-card)
   - Id selector (#page-title)
 */
-/*
 p {
-  font-size: 18px;
+  color: #074686;
 }
-
 .content-card {
-  background: #F2F7F8;
+  background: #a1b784;
 }
 
 #page-title {
-  color: #008D84;
+  color: #1daea4;
 }
 */
 
@@ -49,25 +44,25 @@ p {
   Lecture 06 - Step 2: Add box-model styling to at least three elements by defining
   margins, padding, and borders for your page heading, content cards, and paragraphs.
 */
-/*
+
 #page-title {
   margin: 0 0 16px;
   padding: 12px;
-  border-bottom: 2px solid #008D84;
+  border-bottom: 2px solid #14aba1;
 }
 
 .content-card {
   margin: 16px 0;
   padding: 20px;
-  border: 1px solid #17324D;
+  border: 1px solid #4a94de;
 }
 
 p {
   margin: 0 0 12px;
   padding: 4px 0;
-  border-left: 3px solid #008D84;
+  border-left: 3px solid #17605b;
 }
-*/
+
 
 /*
   Lecture 06 - Step 3: Inspect your webpage in browser DevTools by right-clicking your

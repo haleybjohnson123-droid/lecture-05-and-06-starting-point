@@ -8,7 +8,7 @@
     <!-- Lecture 05 - Step 1: Create a new file named style.css in the same directory as this index.html file. -->
 
     <!-- Lecture 05 - Step 2: Add the external stylesheet link inside this <head> section of index.html. -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!--
@@ -17,7 +17,7 @@
       to a wrapper element (such as a <section> or <article>).
     -->
     <header>
-      <h1>Finding Calm on the Trail</h1>
+      <h1 id="page-title">Finding Calm on the Trail</h1>
       <p>A few reasons I enjoy spending time outdoors.</p>
       <nav aria-label="Page sections">
         <ul>
@@ -29,7 +29,7 @@
     </header>
 
     <main>
-      <section id="why-i-hike">
+      <section id="why-i-hike" class="content-card">
         <h2>Why I hike</h2>
         <p>Walking a trail gives me a chance to slow down, get some fresh air, and notice the world around me. I like that every route has something different to discover, from a quiet stretch of trees to a wide-open view.</p>
         <figure>
@@ -38,7 +38,7 @@
         </figure>
       </section>
 
-      <section id="trail-moments">
+      <section id="trail-moments" class="content-card">
         <h2>Trail moments</h2>
         <article>
           <h3>Enjoying the view</h3>
@@ -46,7 +46,7 @@
         </article>
       </section>
 
-      <section id="what-i-pack">
+      <section id="what-i-pack" class="content-card">
         <h2>What I pack</h2>
         <p>For a comfortable day outside, I bring a few basics:</p>
         <ul>
