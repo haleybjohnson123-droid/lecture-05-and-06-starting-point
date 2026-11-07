@@ -12,23 +12,48 @@ body  {
   background-color: beige;
   color: #17324D;
 }
-/* 
- 05 - Step 5: Write three selector types to target real HTML elements.
-  - Element selector (p)
-  - Class selector (.content-card)
-  - Id selector (#page-title)
-*/
+/* 1. Element Selector */
 p {
-  color: #074686;
-}
-.content-card {
-  background: #a1b784;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: 4px solid #D97736; /* Complementary orange to the dark blue */
 }
 
+/* 2. Class Selector */
+.content-card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #17324D;
+  border-radius: 8px; /* Optional: rounds the corners a bit */
+}
+
+/* 1. ID Selector */
 #page-title {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-bottom: 3px dashed #D97736;
   color: #1daea4;
 }
-*/
+
+/* 2. Element Selector */
+p {
+  color: #074686;
+  padding: 10px;
+  margin: 15px 0;
+  border-left: 4px solid #D97736;
+}
+
+/* 3. Class Selector */
+.content-card {
+  background: #a1b784;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #074686;
+  border-radius: 8px;
+}
 
 /*
   Lecture 05 - Step 6: Apply a coordinated two-color palette across your stylesheet
