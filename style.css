@@ -88,6 +88,26 @@ p {
   border-left: 3px solid #17605b;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr; /* Changes to 2 columns */
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr; /* Changes to 3 columns */
+  }
+}
 
 /*
   Lecture 06 - Step 3: Inspect your webpage in browser DevTools by right-clicking your
